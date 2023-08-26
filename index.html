@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Mexico</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navbar-->
+    <nav class="navbar">
+        <h1 class="logo"><span style="color: white">VISIT</span> <span style="color:rgb(30, 159, 30)">MÉ</span><span style="color:white">XI</span><span style="color:red">CO</span></h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"><span style="color: white">Home</a></span></li>
+            <li><a href="#tours"><span style="color: white">Tours</a></span></li>
+            <li><a href="#explore"><span style="color: white">Explore</a></span></li>
+            <li><a href="#tours"><span style="color: white">Know more</a></span></li>
+            <li class="ctn"><a href="#footer"><span style="color: white">Contact</a></span></li>
+        </ul>
+        <img src="./img/menu.png" alt="menu tab" class="menu-btn">
+    </nav>
+
+    
+    <header>
+        <div class="header-content">
+            <h2>A WONDERFUL COUNTRY</h2>
+                <div class="line"></div>
+                <h1>Explore MÉXICO</h1>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Events --> 
+
+    
+    <section id="events">
+        <section class="events">
+        <div class="title">
+            <h2>What to visit in summer</h2>
+            <div class="line"></div>
+        </div>
+        <div class="container">
+                <div class="cancun">
+                    <img src="./img/cancun.png" alt="Party in Tulum">
+                    <h4>Cancun</h4>
+                    <p>Enjoy the best season in one of the best beaches from all over thr world, meet people from all countries and have fun!</p>
+                    <br>
+                    <br>
+                    <a href="#" class="ctn">Learn more</a> 
+                </div>
+                <div class="vallarta">
+                    <img src="./img/puertovallarta.png" alt="Party in Tulum">
+                    <h4>Puerto Vallarta</h4>
+                    <p>Enjoy the best season in one of the best beaches from all over thr world, meet people from all countries and have fun!</p>
+                    <br>
+                    <br>
+                    <a href="#" class="ctn">Learn more</a> 
+                </div>
+                <div class="huasteca">
+                    <img src="./img/tamul.png" alt="Party in Tulum">
+                    <h4>Huasteca Potosina</h4>
+                    <p>Enjoy the best season in one of the best beaches from all over thr world, meet people from all countries and have fun!</p>
+                    <br>
+                    <br>
+                    <a href="#" class="ctn">Learn more</a> 
+                </div>
+            </div>
+    </section>
+    </section>
+
+    <section id="explore">
+    <section class="explore">
+    
+        <div class="explore-content">
+                <h1>Know the Mexican history and Culture</h1>
+                <p>México is full of history, you have to come to the place to really know about it.</p>
+                <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="tours">
+    <section class="tours">
+        <div class="title">
+            <h2>Get to know more</h2>
+            <div class="line"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container-tours">
+                    <div class="texto"><h2>From the food in Puebla and Oaxaca, to the Mariachis in Guadalajara, to the beautiful Angel of Independence in Mexico City and the making of the tequila in a city called Tequila, you just have to live it all to believe it...</h2></div>
+                    
+                    <div class="bellasartes"><img src="./img/mariachi.png" alt="Mariachi"></div>
+                    <div class="bellasartes1"><img src="./img/gastronomia.png" alt="Gastronomia, tacos, guacamole, mole"></div>
+                    <div class="bellasartes2"><img src="./img/angel.png" alt="Angel de la independencia"></div>
+                    <div class="bellasartes3"><img src="./img/tequila.png" alt="Tequila, barricas"></div>
+               
+        </div>
+        <br>
+        <br>
+        <a href="#" class="ctn">Learn More</a>
+    </section>
+    </section>
+
+    <section id="footer">
+    <section class="footer">
+        <h5>Vancouver, British Columbia, Canada | Phone: <a href="tel:778 892 5562"><span style="color: black">778 892 5562</a> </span>| <a href="mailto: danielnavarrete2304@gmail.com"><span style="color: black">Send me an email</a></span></h5>
+        <br>
+        <p>Copyright &#169; 2023 Daniel Navarrete. All Rights Reserved. </p>
+    </section>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>

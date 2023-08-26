@@ -1,0 +1,331 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+body , html {
+    overflow-x: hidden;  /* NO SCROLL TO THE SIDES */
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    color: rgb(237, 153, 42);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.active{
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/Bellas-artes.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4rem;
+}
+
+.line{
+    width: 200px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 5rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Events */
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+}
+div.container{
+    align-items: center;
+}
+.container{
+    padding: 50px;
+    display: grid;
+    justify-content: start;
+    align-content: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 414px 10px;
+    gap: 20px;
+  }
+
+  .cancun{
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+  .vallarta{
+    text-align: center;
+  }
+
+  .huasteca{
+    text-align: center;
+  }
+
+.cancun img{
+    height: 20rem;
+}
+
+.vallarta img{
+    height: 20rem;
+}
+.huasteca img{
+    height: 20rem;
+}
+
+h4{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 2rem;
+    color:rgb(60, 112, 184);
+    margin: 20px auto;
+}
+
+p{
+    color:black;
+    padding: 0px 40px;
+}
+
+/* EXPLORE SECTION */
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/chichen.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.explore-content p{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.explore-content .ctn{
+    margin-top: 40px;
+}
+
+/* TOURS */
+
+.container-tours{
+    display: grid;
+    justify-content: start;
+    align-content: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 9px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    display: grid;
+    grid-row: span 2;
+    text-align: justify;
+}
+
+.bellasartes img{
+    align-items: center;
+    height: 17rem;
+}
+
+.bellasartes1 img{
+    height: 17rem;
+}
+.bellasartes2 img{
+    height: 15rem;
+}
+.bellasartes3 img{
+    height: 15rem;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 20px 50px;
+    margin: 0;
+    background-color: rgb(93, 90, 90);
+    text-align: center;
+}
+
+.footer h5{
+    font-size: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer p{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+@media (max-width:900px){
+
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(75, 69, 147);
+        margin-top: -1100px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 35%;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-tours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-tours img{
+        width: 100%;
+    }
+
+    .footer{
+      display: block;
+      height: auto;
+    }
+
+    .footer p{
+        display: flex
+    }
+
+}
+
+/* ANIMATIONS */ 
+
+img {
+    transition: transform .4s ease
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.ctn:hover{
+    background-color: white;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.178);
+}
