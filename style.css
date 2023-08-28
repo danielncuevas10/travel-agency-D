@@ -65,7 +65,7 @@ header {
 }
 
 .header-content{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     color: whitesmoke;
     text-align: center;
 }
@@ -270,9 +270,28 @@ p{
     }
     .logo{
         position: absolute;
-        top: 30px;
-        left: 30px;
+        font-size: 1rem;
+        top: 20px;
+        left: 20px;
     }
+
+    .header-content{
+        margin-bottom: 260px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    
+    .header-content h2{
+        font-size: 4rem;
+        margin-bottom: 2px;
+        color:rgb(255, 255, 255);
+    }
+
+    .header-content h1{
+        font-size: 4rem;
+        color:rgb(208, 142, 12);
+    }
+
     .nav-links{
         flex-direction: column;
         width: 100%;
