@@ -1,6 +1,8 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Roboto:wght@300&display=swap');
-
+  html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: antiquewhite;
 }
@@ -207,20 +209,16 @@ p{
 
 .container-tours{
     display: grid;
-    justify-content: start;
-    align-content: start;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 9px;
+    gap: 1px;
 }
 
-.texto{
+.texto p{
+    margin-top: 2rem;
     display: flex;
-    align-items: center;
-    background-color: antiquewhite;
-    display: grid;
-    grid-row: span 2;
+    font-size: 1.5rem;
+    align-items: left;
     text-align: justify;
 }
 
@@ -233,7 +231,7 @@ p{
     height: 17rem;
 }
 .bellasartes2 img{
-    height: 15rem;
+    height: 17rem;
 }
 .bellasartes3 img{
     height: 15rem;
