@@ -317,7 +317,13 @@ p{
         align-items: center;
     }
     .container-tours img{
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 22rem;
+    }
+
+    .container-tours p{
+        width: 25rem;
     }
 
     .footer{
