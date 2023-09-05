@@ -310,6 +310,15 @@ p{
         display: flex;
         flex-direction: column;
     }
+    .explore-content h1{
+        display: inline-block;
+        width: 11rem;
+    }
+    .explore-content p{
+        display: inline-block;
+        width: 15rem;
+    }
+
     .container-tours {
         display: flex;
         flex-direction: column;
