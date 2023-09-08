@@ -331,6 +331,13 @@ p{
         width: 22rem;
     }
 
+    .explore-content .ctn{
+        display: inline-block;
+        width: 6rem;
+        text-align: center;
+        font-size: .8rem;
+    }
+
     .container-tours p{
         width: 25rem;
     }
