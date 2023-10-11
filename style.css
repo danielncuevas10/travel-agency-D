@@ -28,6 +28,15 @@ ul{
     list-style: none;
 }
 
+.nav-links a {
+    color: white;
+    
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
 .active{
     color: #fc036b;
     text-decoration: underline;
@@ -48,6 +57,7 @@ ul{
 .nav-links{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .nav-links li{
@@ -55,6 +65,7 @@ ul{
     text-decoration: none;
     color: whitesmoke;
 }
+
 header {
     width: 100vw;
     height: 100vh;
