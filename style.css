@@ -34,7 +34,13 @@ ul{
 }
 
 .nav-links a:hover {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.ctn a:hover{
     color: black;
+    text-decoration: none;
 }
 
 .active{
@@ -269,6 +275,11 @@ p{
     font-weight: bold;
 }
 
+.footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 @media (max-width:900px){
 
     .menu-btn{
@@ -367,7 +378,7 @@ p{
 /* ANIMATIONS */ 
 
 img {
-    transition: transform .4s ease
+    transition: transform .4s ease;
 }
 
 img:hover{
